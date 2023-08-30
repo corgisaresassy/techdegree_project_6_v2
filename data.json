@@ -1,0 +1,49 @@
+{
+    "projects":[
+        {
+            "id":0,
+            "project_name":"Random Quote Generator",
+            "description":"A simple javascript application that shares quotes in a visaully appealing manner",
+            "technologies":["javascript","html","css"],
+            "live_link":"https://corgisaresassy.github.io/techdegree-project-1/",
+            "github_link":"https://github.com/corgisaresassy/techdegree-project-1",
+            "image_urls":["/images/project1_square.png","/images/project1_long1.png","/images/project1_long2.png"]
+        },
+        {
+            "id":1,
+            "project_name":"Data Pagination and Filtering",
+            "description":"Dynamic webpage that allows for dynamic pagination and data searching utlizing client side JS",
+            "technologies":["javascript","pagination", "data filtering", "dynamic rendering"],
+            "live_link":"https://corgisaresassy.github.io/Techdegree-Projects-2/",
+            "github_link":"https://github.com/corgisaresassy/Techdegree-Projects-2",
+            "image_urls":["/images/project2_square.png","/images/project2_long1.png"]
+        },
+        {
+            "id":2,
+            "project_name":"Interactive Form",
+            "description":"A responsive form built with real time data validation and intuitive user guidance",
+            "technologies":["javascript","forms","data validation","real time guidance"],
+            "live_link":"https://corgisaresassy.github.io/techdegree-project-3/",
+            "github_link":"https://github.com/corgisaresassy/techdegree-project-3",
+            "image_urls":["/images/project3_square.png","/images/project3_long1.png","/images/project3_long2.png"]
+        },
+        {
+            "id":3,
+            "project_name":"OOP Game Show App",
+            "description":"An OOP based word guessing game that allows users to both select letters with a mouse or use their keyboard for their guesses",
+            "technologies":["javascript","OOP", "Multiple Inputs"],
+            "live_link":"https://corgisaresassy.github.io/techdegree-project-4/",
+            "github_link":"https://github.com/corgisaresassy/techdegree-project-4",
+            "image_urls":["/images/project4_square.png","/images/project4_long1.png","/images/project4_long2.png"]
+        },
+        {
+            "id":4,
+            "project_name":"Public API Requests",
+            "description":"API based web application that utilizes a public API to dynamically create a searchable directory of employees",
+            "technologies":["javascript","API","Search","Modals"],
+            "live_link":"https://corgisaresassy.github.io/techdegree-project-5/",
+            "github_link":"https://github.com/corgisaresassy/techdegree-project-5",
+            "image_urls":["/images/project5_square.png","/images/project5_long1.png","/images/project5_long2.png"]
+        }
+    ]
+}

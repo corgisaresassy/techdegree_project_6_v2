@@ -1,0 +1,19 @@
+extends layout.pug
+
+block content
+
+  article.portfolio-intro
+
+    h1 My Portolio
+
+    p This webpage lays out a few of my recent projects. Please enjoy.
+
+
+  article.portfolio-project-thumbs
+    .projects-box.box.grid
+      //- Using the each syntax to iterate through each project and display them on the DOM
+      each el in projects
+        .cell
+          a(href=`/project/${el.id}`)
+            img.thumbnail(src=`${el.image_urls[0]}`, alt=`${el.project_name}`)
+            h5 #{el.project_name}

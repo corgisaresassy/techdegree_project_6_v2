@@ -1,0 +1,23 @@
+extends layout.pug
+
+block content
+
+  nav.nav
+    a(href='/')
+      span &larr;
+      |  Back
+
+  article.portfolio-about
+    .inner-wrapper.flex-row-wrap.two-col
+      .about-intro-box.box
+
+        //- Here we share any information related to a 404 error and encourage users to double check url spelling
+        h1 Oops! This Page Does Not Exist. Please make sure you entered the URL correctly. 
+        h2= err.status
+        h3= err.message
+        p= err.stack
+
+    nav.nav
+      a(href='/')
+        span &larr;
+        |  Back

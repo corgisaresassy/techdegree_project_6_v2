@@ -1,0 +1,23 @@
+extends layout.pug
+
+block content
+
+  nav.nav
+    a(href='/')
+      span &larr;
+      |  Back
+
+  article.portfolio-about
+    .inner-wrapper.flex-row-wrap.two-col
+      .about-intro-box.box
+
+        //- This page displays all errors handed to it from routing
+        h1 Oops! Something Went Wrong! 
+        h2= error.status
+        h3= error.message
+        p= error.stack
+
+    nav.nav
+      a(href='/')
+        span &larr;
+        |  Back
